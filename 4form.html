@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+<head>
+<title>form</title>
+<style>
+th{text-align: left}
+</style>
+</head>
+<body><h2 style="text-align:center;">Registration form</h2>
+<form action="action_page.php" target="_blank" method="get">
+<fieldset style="background-color:red;">
+<legend>details</legend>
+<table align="center" style="background-color:  #17f1d0;">
+
+<tr>
+<th>name</th>
+<td><input type="text" value="type here"></td>
+</tr>
+
+<tr>
+<th>DOB</th>
+<td><input type="date"></td>
+</tr>
+<th>address</th>
+<td><textarea rows="6" cols="22"></textarea></td>
+</tr>
+
+<tr>
+<th>gender</th>
+<td><input type="radio" name="gender">male
+<input type="radio"name="gender">female</td>
+</tr>
+
+<tr>
+<th>course</th>
+<td><input type="checkbox" name="course">MBA
+<input type="checkbox"name="course">MCA</td>
+</tr>
+
+
+<tr>
+<th>college</th>
+<td><input list="clg"</td>
+<datalist id="clg">
+<option>thrissur engineering college</option>
+<option>kmct enginering college</option>
+<option>college of engineering kollam</option>
+</datalist>
+
+<tr>
+<th>email</th>
+<td><input type="email"></td>
+</tr>
+
+
+<tr>
+<th>password</th>
+<td><input type="password"></td>
+</tr>
+<tr>
+
+
+<tr>
+<th>phone number</th>
+<td><select>
+<option value="901">901</option>
+<option value="999">999</option>
+<option value="978">978</option>
+<option value="988">988</option>
+</select>
+<input type="tel"></td>
+</tr>
+
+
+<tr>
+<th></th>
+<th><input type="submit"> 
+<input type="reset"></th>
+</tr>
+
+
+
+
+
+
+</form>
+</body>
+</html>
